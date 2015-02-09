@@ -34,7 +34,7 @@ if (isset($_POST["rice"]) && isset($_POST["vegetable"]) &&isset($_POST["fish"]) 
     $billcalculattion->payableAmount=$_POST['payableAmount'];
 
 
-    echo "grossTotal:" .$billcalculattion->getGrossTotal() . "payableAmount:" .$billcalculattion->getPayableAmount();
+    echo "grossTotal:" .$billcalculattion->getGrossTotal() . "payableAmount:" .$billcalculattion ->getPayableAmount();
 
 }
 
